@@ -2,6 +2,9 @@
 
 Awesome syntax highlighting for your JavaScript
 
+FORK: 
+Comments (Black) a little lighter; cursor line is a little lighter; white is a little dimmer
+
 # Installing
 
 Git
