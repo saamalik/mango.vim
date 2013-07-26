@@ -121,6 +121,13 @@ hi Error        guifg=#eeeeee   guibg=#ff0000   gui=NONE      ctermfg=255       
 hi Todo         guifg=#080808   guibg=#ffd700   gui=NONE      ctermfg=232       ctermbg=220       cterm=NONE
 hi Underlined   guifg=NONE      guibg=NONE      gui=underline ctermfg=NONE      ctermbg=NONE      cterm=underline
 
+hi VertSplit    guifg=#444444   guibg=#444444   gui=NONE      ctermfg=238       ctermbg=238       cterm=NONE
+
+hi Pmenu        guifg=#ffffff   guibg=#444444   gui=NONE      ctermfg=255       ctermbg=238       cterm=NONE
+hi PmenuSel     guifg=#000000   guibg=#b1d631   gui=NONE      ctermfg=0         ctermbg=107       cterm=NONE
+
+hi Folded			  guifg=#a0a8b0   guibg=#384048   gui=NONE      ctermfg=248         ctermbg=0       cterm=NONE
+
 " MIT LICENSE {{{
 " The MIT License (MIT)
 " Copyright 2012 Josh Perez, http://www.goatslacker.com
