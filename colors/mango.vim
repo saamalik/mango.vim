@@ -117,29 +117,31 @@
   endif
 " }}}
 
-hi Error        guifg=#eeeeee   guibg=#ff0000   gui=NONE      ctermfg=255       ctermbg=196       cterm=NONE
-hi Todo         guifg=#080808   guibg=#ffd700   gui=NONE      ctermfg=232       ctermbg=220       cterm=NONE
-hi Underlined   guifg=NONE      guibg=NONE      gui=underline ctermfg=NONE      ctermbg=NONE      cterm=underline
+hi Error        guifg=#eeeeee   guibg=#ff0000   gui=NONE      ctermfg=255       ctermbg=196    cterm=NONE
+hi Todo         guifg=#080808   guibg=#ffd700   gui=NONE      ctermfg=232       ctermbg=220    cterm=NONE
+hi Underlined   guifg=NONE      guibg=NONE      gui=underline ctermfg=NONE      ctermbg=NONE   cterm=underline
 
-hi VertSplit    guifg=#444444   guibg=#444444   gui=NONE      ctermfg=238       ctermbg=238       cterm=NONE
+hi VertSplit    guifg=#444444   guibg=#444444   gui=NONE      ctermfg=238       ctermbg=238    cterm=NONE
 
-hi Pmenu        guifg=#ffffff   guibg=#444444   gui=NONE      ctermfg=255       ctermbg=238       cterm=NONE
-hi PmenuSel     guifg=#000000   guibg=#b1d631   gui=NONE      ctermfg=0         ctermbg=107       cterm=NONE
+hi Visual       guifg=NONE      guibg=DarkGrey  gui=NONE      ctermfg=NONE      ctermbg=238    cterm=NONE
 
-hi Folded       guifg=#a0a8b0   guibg=#384048   gui=NONE      ctermfg=248         ctermbg=0       cterm=NONE
+hi Pmenu        guifg=#ffffff   guibg=#444444   gui=NONE      ctermfg=255       ctermbg=238    cterm=NONE
+hi PmenuSel     guifg=#000000   guibg=#b1d631   gui=NONE      ctermfg=0         ctermbg=107    cterm=NONE
 
-hi DiffDelete guifg=#585858 guibg=NONE gui=NONE ctermfg=238  ctermbg=NONE cterm=NONE
-hi DiffAdd    guifg=#585858 guibg=NONE gui=NONE ctermfg=NONE ctermbg=8    cterm=NONE
-hi DiffChange guifg=#585858 guibg=NONE gui=NONE ctermfg=NONE ctermbg=0  cterm=NONE
-hi DiffText   guifg=#585858 guibg=NONE gui=NONE ctermfg=NONE ctermbg=0  cterm=NONE
+hi Folded       guifg=#a0a8b0   guibg=#384048   gui=NONE      ctermfg=248       ctermbg=0      cterm=NONE
+
+hi DiffDelete   guifg=#585858   guibg=NONE      gui=NONE      ctermfg=238       ctermbg=NONE   cterm=NONE
+hi DiffChange   guifg=#585858   guibg=NONE      gui=NONE      ctermfg=NONE      ctermbg=235    cterm=NONE
+hi DiffAdd      guifg=#585858   guibg=NONE      gui=NONE      ctermfg=NONE      ctermbg=236    cterm=NONE
+hi DiffText     guifg=#585858   guibg=NONE      gui=NONE      ctermfg=NONE      ctermbg=236    cterm=NONE
 
 " MIT LICENSE {{{
 " The MIT License (MIT)
 " Copyright 2012 Josh Perez, http://www.goatslacker.com
 "
-" Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+" Permission is hereby granted, free of charge, to any person obtaining a copy of this softwareand associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 "
-" The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+" The above copyright notice and this permission notice shall be included in all copies or subsantial portions of the Software.
 "
 " THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 " }}}
