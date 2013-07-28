@@ -9,7 +9,7 @@ Comments (Black) a little lighter; cursor line is a little lighter; white is a l
 
 Git
 
-    $ git clone https://github.com/goatslacker/mango.vim && make
+    $ git clone https://github.com/saamalik/mango.vim
 
 Download from vim.org
 
