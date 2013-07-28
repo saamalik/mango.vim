@@ -126,7 +126,12 @@ hi VertSplit    guifg=#444444   guibg=#444444   gui=NONE      ctermfg=238       
 hi Pmenu        guifg=#ffffff   guibg=#444444   gui=NONE      ctermfg=255       ctermbg=238       cterm=NONE
 hi PmenuSel     guifg=#000000   guibg=#b1d631   gui=NONE      ctermfg=0         ctermbg=107       cterm=NONE
 
-hi Folded			  guifg=#a0a8b0   guibg=#384048   gui=NONE      ctermfg=248         ctermbg=0       cterm=NONE
+hi Folded       guifg=#a0a8b0   guibg=#384048   gui=NONE      ctermfg=248         ctermbg=0       cterm=NONE
+
+hi DiffDelete guifg=#585858 guibg=NONE gui=NONE ctermfg=238  ctermbg=NONE cterm=NONE
+hi DiffAdd    guifg=#585858 guibg=NONE gui=NONE ctermfg=NONE ctermbg=8    cterm=NONE
+hi DiffChange guifg=#585858 guibg=NONE gui=NONE ctermfg=NONE ctermbg=0  cterm=NONE
+hi DiffText   guifg=#585858 guibg=NONE gui=NONE ctermfg=NONE ctermbg=0  cterm=NONE
 
 " MIT LICENSE {{{
 " The MIT License (MIT)
