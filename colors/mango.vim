@@ -133,7 +133,7 @@ hi Folded       guifg=#a0a8b0   guibg=#384048   gui=NONE      ctermfg=248       
 hi DiffDelete   guifg=#585858   guibg=NONE      gui=NONE      ctermfg=238       ctermbg=NONE   cterm=NONE
 hi DiffChange   guifg=#585858   guibg=NONE      gui=NONE      ctermfg=NONE      ctermbg=235    cterm=NONE
 hi DiffAdd      guifg=#585858   guibg=NONE      gui=NONE      ctermfg=NONE      ctermbg=236    cterm=NONE
-hi DiffText     guifg=#585858   guibg=NONE      gui=NONE      ctermfg=NONE      ctermbg=236    cterm=NONE
+hi DiffText     guifg=#585858   guibg=NONE      gui=NONE      ctermfg=NONE      ctermbg=237    cterm=NONE
 
 " MIT LICENSE {{{
 " The MIT License (MIT)
